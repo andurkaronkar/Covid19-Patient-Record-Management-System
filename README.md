@@ -44,16 +44,42 @@ The Hospital Management System (HMS) is a comprehensive solution designed to man
   - `loyalhospital_patient.sql`: SQL script for the `patient` table.
   - `loyalhospital_item.sql`: SQL script for the `item` table.
 
-## Deployment Steps
-
-### Prerequisites
+## Prerequisites
 
 - Java Development Kit (JDK) 19
 - MySQL Server
 - Apache Ant
 - NetBeans IDE (optional but recommended)
 
-### Setup Database
+## Installing Dependencies
+
+### Java Development Kit (JDK)
+
+1. **Download JDK 19**: Download the JDK from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk19-downloads.html).
+2. **Install JDK**: Follow the installation instructions for your operating system.
+
+### MySQL Server
+
+1. **Download MySQL Server**: Download MySQL Server from the [official MySQL website](https://dev.mysql.com/downloads/mysql/).
+2. **Install MySQL Server**: Follow the installation instructions for your operating system.
+
+### Apache Ant
+
+1. **Download Apache Ant**: Download Apache Ant from the [official Apache Ant website](https://ant.apache.org/bindownload.cgi).
+2. **Install Apache Ant**: Follow the installation instructions for your operating system.
+3. **Set Environment Variables**:
+   - Add `ANT_HOME` to your system environment variables, pointing to the Ant installation directory.
+   - Add `ANT_HOME/bin` to your system `PATH`.
+
+### MySQL Connector/J
+
+1. **Download MySQL Connector/J**: Download the MySQL Connector/J JAR file from the [official MySQL website](https://dev.mysql.com/downloads/connector/j/).
+2. **Add to Project**:
+   - In NetBeans, right-click on the project and select `Properties`.
+   - Go to `Libraries` and click `Add JAR/Folder`.
+   - Select the downloaded MySQL Connector/J JAR file and add it to the project.
+
+## Setup Database
 
 1. **Start MySQL Server**: Ensure that your MySQL server is running.
 2. **Create Database**: Create a new database named `loyalhospital`.
@@ -66,7 +92,7 @@ The Hospital Management System (HMS) is a comprehensive solution designed to man
      SOURCE path/to/loyalhospital_item.sql;
      ```
 
-### Build and Run the Project
+## Build and Run the Project
 
 1. **Clone the Repository**: Clone the project repository to your local machine.
 2. **Open in NetBeans**: Open the project in NetBeans IDE.
@@ -103,4 +129,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Contact
 
-For any questions or support, please contact Yash at yash@example.com.# Covid19-Patient-Record-Management-System
+For any questions or support, please contact Onkar at andurkaronkar@gmail.com
