@@ -1,4 +1,4 @@
-# Hospital-Management-DBMS-PROJECT
+# Covid19-Patient-Record-Management-System
 
 ## Overview
 
